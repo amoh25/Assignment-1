@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidenav{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #9ccfd8;
+}
+
+.wrapper .sidenav ul li{
+    padding: 15px;
+}
+
+.wrapper .sidenav ul li a{
+    display: block;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 33%,33%,33%;
+    margin-right: 300px;
+    align-items: baseline;
+}
+
+#cont1{
+    margin: 100px;
+    padding: 10px;
+    height: 20ex;
+    border: 1px;
+    width: 20em;
+    border: black;
+    background-color: burlywood;
+    grid-column-start: 1;
+    align-content: center;
+}
+
+#cont2{
+    margin: 100px;
+    padding: 10px;
+    height: 20ex;
+    border: 1px;
+    width: 20em;
+    border: black;
+    background-color: burlywood;
+    grid-column-start: 2;
+}
+
+#cont3{
+    margin: 100px;
+    padding: 10px;
+    height: 20ex;
+    border: 1px;
+    width: 20em;
+    border: black;
+    background-color: burlywood;
+    grid-column-start: 3;
+}
+
+.create{
+    display: grid;
+}
+
+/* Input Positioning */
