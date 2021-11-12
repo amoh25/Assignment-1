@@ -75,9 +75,65 @@
 
 .create{
     display: grid;
+    grid-template-rows: 16%, 16%, 16%, 16%, 16%, 16%;
+    align-items: center;
+    width: 100%;
+    padding: 150px;
+    box-sizing: border-box;
+    margin: 200px;
+}
+
+#fname{
+    grid-row-start: 2;
+}
+
+#Phone{
+    grid-row-start: 3;
+}
+
+#Addy{
+    grid-row-start: 4;
+}
+
+#Email{
+    grid-row-start: 5;
 }
 
 body{
     background: #31748f;
 }
+.create input[type = 'text'],
+.create input[type = 'tel'],
+.create input[type = 'email'],
+.create textarea{
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px;
+    border-radius: 2px;
+}
+
+.buttons{
+    display: flex;
+}
+
+#button1{
+    flex: 1;
+    padding: 10px;
+    border-radius: 2px;
+    width: 200px;
+    background-color: #e0def4;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#button2{
+    flex: 2;
+    padding: 10px;
+    border: 2px;
+    width: 200px;
+    background-color: #e0def4;
+    text-align: center;
+}
+
 /* Input Positioning */
