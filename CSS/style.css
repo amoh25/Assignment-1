@@ -147,3 +147,16 @@ body{
     text-align: center;
 }
 
+p{
+    display: flex;
+    justify-content: left;
+    position: relative; right: 450px; top: 200px;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+}
+
+#image{
+ position: relative; left: 750px; top: 100px;
+}
