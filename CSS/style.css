@@ -4,6 +4,7 @@
 /* #31748f */
 /* #e0def4 */
 /* #555169 */
+/* #191724 */
 
 *{
     margin: 0;
@@ -45,7 +46,7 @@
     height: 20ex;
     border: 1px;
     width: 20em;
-    border: black;
+    border: #191724;
     background-color: #e0def4;
     grid-column-start: 1;
     align-content: center;
@@ -57,7 +58,7 @@
     height: 20ex;
     border: 1px;
     width: 20em;
-    border: black;
+    border: #191724;
     background-color: #e0def4;
     grid-column-start: 2;
 }
@@ -68,7 +69,7 @@
     height: 20ex;
     border: 1px;
     width: 20em;
-    border: black;
+    border: #191724;
     background-color: #e0def4;
     grid-column-start: 3;
 }
@@ -154,12 +155,34 @@ p{
     text-align: left;
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
-    color: black;
+    color:#191724;
 }
 
 #image{
  position: relative; left: 750px; top: 100px;
 }
+
+#but1{
+    flex: 1;
+    padding: 10px;
+    border-radius: 2px;
+    max-width: 300px;
+    background-color: #e0def4;
+    text-align: center;
+    margin-right: 50px;
+    position: relative; top: 250px; right: 450px;
+}
+
+#but2{
+    flex: 2;
+    padding: 1px;
+    border: 2px;
+    max-width: 252px;
+    background-color: #e0def4;
+    text-align: center;
+    position: relative; top: 250px; right: 450px;
+
+
 
 @media (min-width: 750px){
     p{
@@ -202,12 +225,15 @@ p{
     }
 
     .boxes{
-        margin-left: 5%;
+        display: grid;
+        grid-template-columns: 33%,33%,33%;
+        margin-left: 50%;
+        align-items: baseline;
     }
 
     .wrapper .sidenav{
         position: fixed;
-        width: 30%;
+        width: 15%;
         height: 100%;
         background: #9ccfd8;
     }
